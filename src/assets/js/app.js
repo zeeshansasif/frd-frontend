@@ -1,0 +1,1 @@
+//@prepros-append component/custom.js

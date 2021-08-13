@@ -1,0 +1,70 @@
+ @font-face {
+    font-family: 'SEGOEUI';
+    src:url($font-location +'SEGOEUI.woff') format('woff'),
+        url($font-location +'SEGOEUI.woff2') format('woff2'),
+        url($font-location +'SEGOEUI.svg#SEGOEUI') format('svg'),
+        url($font-location +'SEGOEUI.eot'),
+        url($font-location +'SEGOEUI.eot?#iefix') format('embedded-opentype'),
+        url($font-location +'SEGOEUI.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'basis_grotesque_proregular';
+    src: url($font-location +'basisgrotesquepro-regular-webfont.woff2') format('woff2'),
+         url($font-location +'basisgrotesquepro-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'basis_grotesque_prolight';
+    src: url($font-location +'basisgrotesquepro-light-webfont.woff2') format('woff2'),
+         url($font-location +'basisgrotesquepro-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'basis_grotesque_probold';
+    src: url($font-location +'basisgrotesquepro-bold-webfont.woff2') format('woff2'),
+         url($font-location +'basisgrotesquepro-bold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'freightdispproblauploadedfile';
+    src: url($font-location +'freightdisp_pro_black-webfont.woff2') format('woff2'),
+         url($font-location +'freightdisp_pro_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'BasisGrotesquePro-Medium';
+    src:url($font-location +'BasisGrotesquePro-Medium.woff') format('woff'),
+      url($font-location +'BasisGrotesquePro-Medium.woff2') format('woff2'),
+      url($font-location +'BasisGrotesquePro-Medium.svg#BasisGrotesquePro-Medium') format('svg'),
+      url($font-location +'BasisGrotesquePro-Medium.eot'),
+      url($font-location +'BasisGrotesquePro-Medium.eot?#iefix') format('embedded-opentype'),
+      url($font-location +'BasisGrotesquePro-Medium.ttf') format('truetype');
+  
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+    font-family: 'BasisGrotesquePro-Black';
+    src:url($font-location+'BasisGrotesquePro-Black.woff') format('woff'),
+        url($font-location+'BasisGrotesquePro-Black.woff2') format('woff2'),
+        url($font-location+'BasisGrotesquePro-Black.svg#BasisGrotesquePro-Black') format('svg'),
+        url($font-location+'BasisGrotesquePro-Black.eot'),
+        url($font-location+'BasisGrotesquePro-Black.eot?#iefix') format('embedded-opentype'),
+        url($font-location+'BasisGrotesquePro-Black.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

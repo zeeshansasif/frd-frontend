@@ -1,0 +1,13 @@
+.MuiInputBase-formControl{
+    // border: 1px solid #D4D0DD;
+    // height: 38px;
+}
+.MuiButton-containedPrimary{
+    background-color: $base-color !important;
+    @include radius(5px !important);
+    text-transform: capitalize !important;
+    font-family: $baseFont-700 !important;
+}
+.MuiCheckbox-colorPrimary.Mui-checked{
+    color: $base-color !important;
+}

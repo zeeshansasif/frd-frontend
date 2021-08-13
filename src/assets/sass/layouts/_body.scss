@@ -1,0 +1,20 @@
+.body {
+    &-fixed {
+        position: fixed;
+    }
+}
+body{
+	font-family: $baseFont-500;
+    overflow-x: hidden;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #3F2355;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

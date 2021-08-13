@@ -1,0 +1,67 @@
+.widget-tabs{
+    position: relative;
+    .MuiButtonGroup-contained{
+        position: absolute;
+        right: 10px;
+        top: 3px;
+        padding: 0 0 0 10px;
+        color: #fff;
+        background-color: $base-color;
+        outline: none;
+        border: none;
+        text-align: center;
+        opacity: 1 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border-radius: 2px;
+        font-size: 12px;
+        line-height: 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .MuiAppBar-colorDefault{
+        box-shadow: none;
+        z-index: 1000;
+    }
+    .MuiTabs-root{
+        box-shadow: none;
+        min-height: auto;
+        min-width: auto;
+        padding: 0 120px 0 0;
+    }
+    .MuiTab-textColorPrimary{
+        font-family: $baseFont-500;
+        color: #3F2355;
+        font-size: 12px;
+        text-transform: capitalize;
+        position: relative;
+        &:after{
+            content: "";
+            clear: both;
+            display: block;
+            width: 1px;
+            height: 14px;
+            background-color: #000;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -7px;
+
+        }
+        &.Mui-selected{
+            color: $base-color;
+        }
+        &:first-child{
+            &:after{
+                display: none;
+            }
+        }
+    }
+    .MuiTab-root{
+        min-height: auto;
+        min-width: auto;
+    }
+    .PrivateTabIndicator-colorPrimary-3{
+        background-color: $base-color;
+    }
+}

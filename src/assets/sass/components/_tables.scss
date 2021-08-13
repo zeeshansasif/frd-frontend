@@ -1,0 +1,49 @@
+.hkcGBu{
+    font-family: $baseFont-700;
+    font-size: 13px;
+    font-weight: normal;
+}
+.erjDfa{
+    border-bottom-color: #F4F4F4 !important;
+}
+.edTgaw{
+    font-family: $baseFont-500;
+    font-size: 12px;
+    font-weight: normal !important;
+}
+.rdt_TableRow{
+    border: none !important;
+    &:nth-child(even){
+        background-color: #F5F7FA;
+    }
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input{
+    padding: 0;
+}
+
+.MuiTableBody-root{
+    .MuiTableRow-root{
+        border: none !important;
+        .MuiTableCell-body{
+            border: none !important;
+        }
+        &:nth-child(even){
+            background-color: #F5F7FA !important;
+        }
+    }
+}
+.MuiTableCell-head{
+    font-family: $baseFont-700 !important;
+    font-size: 13px !important;
+    font-weight: normal !important;
+    border-bottom-color: #F4F4F4 !important;
+}
+.MuiTableCell-body{
+    font-family: $baseFont-500 !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+.MuiSvgIcon-root{
+    width: 15px !important;
+    height: 15px !important;
+}
