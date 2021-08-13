@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "12.19.9"
+    "node": "16.3.0"
   },
   "name": "fra-react",
   "version": "0.1.0",
